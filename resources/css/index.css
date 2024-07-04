@@ -6,6 +6,13 @@ body {
     background-color: #4697C3;
 }
 
+input,
+textarea,
+button,
+select,
+a {
+    -webkit-tap-highlight-color: transparent;
+}
 
 #main-content {
     position: relative;
