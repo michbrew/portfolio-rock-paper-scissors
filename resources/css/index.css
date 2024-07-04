@@ -14,9 +14,13 @@ a {
     -webkit-tap-highlight-color: transparent;
 }
 
+a:focus,a:visited,a:active{
+    outline: none;
+  }
+
 #main-content {
     position: relative;
-    top: 6.25rem;
+    top: 1rem;
     height: 46.9rem;
     width: 46.9rem;
     margin: 0 auto;
@@ -183,10 +187,10 @@ button {
 
 @media only screen and (min-width: 501px) and (max-width: 700px) {
     #main-content {
-        height: 400px;
-        width: 400px;
+        height: 500px;
+        width: 500px;
         position: relative;
-        top: 2rem;
+        top: 0.5rem;
     }
 
     #computer-image-container img {
