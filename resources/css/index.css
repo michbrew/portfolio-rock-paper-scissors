@@ -1,3 +1,7 @@
+html {
+    font-size: 16px;
+}
+
 body {
     background-color: #4697C3;
 }
@@ -5,9 +9,9 @@ body {
 
 #main-content {
     position: relative;
-    top: 100px;
-    height: 750px;
-    width: 750px;
+    top: 6.25rem;
+    height: 46.9rem;
+    width: 46.9rem;
     margin: 0 auto;
     border: 3px solid black;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
@@ -23,9 +27,9 @@ body {
     font-size: 4rem;
     font-weight: 900;
     border-bottom: 3px solid black;
-
-    text-align: center;
-    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 25%;
     
@@ -129,5 +133,117 @@ button {
     width: 12.5rem;
     height: auto;
 }
+
+/* media queries */
+
+
+/* screens between 300px - 500px */
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+    #main-content {
+        height: 300px;
+        width: 300px;
+        position: relative;
+        top: 2rem;
+    }
+
+    #computer-image-container img {
+        width: 5rem;
+        height: auto;
+    }
+
+    #header {
+        font-size: 1.5rem;
+    }
+
+    #computer-choice-display,
+    #user-choice-display {
+        font-size: 1.5rem;
+    }
+
+    #user-choice,
+    #throw,
+    #reset {
+        margin: .5rem;
+
+        font-size: 1rem;
+    }
+
+}
+
+/* screens between 501px - 700px */
+
+
+@media only screen and (min-width: 501px) and (max-width: 700px) {
+    #main-content {
+        height: 400px;
+        width: 400px;
+        position: relative;
+        top: 2rem;
+    }
+
+    #computer-image-container img {
+        width: 6rem;
+        height: auto;
+    }
+
+    
+
+    #header {
+        font-size: 1.75rem;
+    }
+
+    #computer-choice-display,
+    #user-choice-display {
+        font-size: 1.75rem;
+    }
+
+    #user-choice,
+    #throw,
+    #reset {
+        margin: .5rem;
+
+        font-size: 1.25rem;
+    }
+
+}
+
+/* screens between 701px - 900px */
+
+
+@media only screen and (min-width: 701px) and (max-width: 900px) {
+    #main-content {
+        height: 600px;
+        width: 600px;
+        position: relative;
+        top: 2rem;
+    }
+
+    #computer-image-container img {
+        width: 7rem;
+        height: auto;
+    }
+
+    
+
+    #header {
+        font-size: 2rem;
+    }
+
+    #computer-choice-display,
+    #user-choice-display {
+        font-size: 2rem;
+    }
+
+    #user-choice,
+    #throw,
+    #reset {
+        margin: .5rem;
+
+        font-size: 1.5rem;
+    }
+
+}
+
 
 
