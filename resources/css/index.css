@@ -5,9 +5,9 @@ body {
 
 #main-content {
     position: relative;
-    top: 6.25rem;
-    height: 46.875rem;
-    width: 46.875rem;
+    top: 100px;
+    height: 750px;
+    width: 750px;
     margin: 0 auto;
     border: 3px solid black;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
@@ -130,28 +130,4 @@ button {
     height: auto;
 }
 
-@media (max-width: 900px) {
 
-    #main-content {
-        height: 45rem;
-        width: 45rem;
-    }
-
-}
-
-@media (max-width: 700px) {
-
-    #main-content {
-        height: 40rem;
-        width: 40rem;
-    }
-
-}
-
-@media (max-width: 600px) {
-    
-    #main-content {
-        height: 35rem;
-        width: 35rem;
-    }
-}
