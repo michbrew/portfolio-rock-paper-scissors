@@ -18,6 +18,11 @@ a:focus,a:visited,a:active{
     outline: none;
   }
 
+  button, select {
+    color: #000;
+  }
+  
+
 #main-content {
     
     height: 46.9rem;
