@@ -5,9 +5,9 @@ body {
 
 #main-content {
     position: relative;
-    top: 100px;
-    height: 750px;
-    width: 750px;
+    top: 6.25rem;
+    height: 46.875rem;
+    width: 46.875rem;
     margin: 0 auto;
     border: 3px solid black;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
