@@ -6,18 +6,6 @@ body {
     background-color: #4697C3;
 }
 
-input,
-textarea,
-button,
-select,
-a {
-    -webkit-tap-highlight-color: transparent;
-}
-
-a:focus,a:visited,a:active{
-    outline: none;
-  }
-
   button, select {
     color: #000;
   }
