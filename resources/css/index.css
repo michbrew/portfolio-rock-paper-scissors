@@ -12,7 +12,8 @@ body {
   
 
 #main-content {
-    
+    position: relative;
+    top: 2rem;
     height: 46.9rem;
     width: 46.9rem;
     margin: 0 auto;
