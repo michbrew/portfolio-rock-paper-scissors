@@ -2,6 +2,7 @@
 
 
 const throwButton = document.getElementById("throw");
+throwButton.hidden=true;
 const header = document.getElementById("header");
 const userSection = document.getElementById("user");
 const computerSection = document.getElementById("computer");
@@ -12,11 +13,25 @@ const dropDown = document.getElementById("user-choice");
 const resetButton = document.getElementById("reset");
 resetButton.hidden= true;
 
+const userChoiceSelect = document.getElementById("user-choice");
+userChoiceSelect.value = "---";
+
+userChoiceSelect.addEventListener("change", ()=> {
+  if(userChoiceSelect.value !== "---") {
+throwButton.hidden = false;
+userChoiceSelect.disabled= true;}
+else {
+  header.innerHTML = "Make a Selection";
+}
+});
+
 
 const resetFunction = () => {
     const userChoiceDisplay = document.getElementById("user-choice-display");
     userChoiceDisplay.innerHTML = "?";
-
+    userChoiceSelect.disabled= false;
+    userChoiceSelect.value = "---";
+    
     const computerChoiceDisplay = document.getElementById("computer-choice-display");
     computerChoiceDisplay.innerHTML = "?";
 
@@ -29,7 +44,7 @@ const resetFunction = () => {
     computerSection.style.backgroundColor ="";
     computerSection.style.boxShadow="none";
 
-    throwButton.hidden= false;
+    throwButton.hidden= true;
     resetButton.hidden= true;
     dropDown.hidden = false;
     

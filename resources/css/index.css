@@ -14,8 +14,8 @@ body {
 #main-content {
     position: relative;
     top: 2rem;
-    height: 46.9rem;
-    width: 46.9rem;
+    height: 80vh;
+    width: 80vh;
     margin: 0 auto;
     border: 3px solid black;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
@@ -28,8 +28,11 @@ body {
 
 
 #header {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 900;
+    text-align: center;
+    line-height: 1.5;
+    word-spacing: 2;
     border-bottom: 3px solid black;
     display: flex;
     justify-content: center;
@@ -120,10 +123,12 @@ body {
 
 #computer-image-container {
     display: flex;
+    
    justify-content: center;
    align-items: center;
    width: 100%;
    height: 60%;
+   overflow: hidden;
    
    
     
@@ -134,122 +139,42 @@ button {
 }
 
 #computer-image-container img {
-    width: 12.5rem;
-    height: auto;
+    
+    height: 85%;
+    width: auto;
+    
+    
+    
+    
+    
 }
 
 /* media queries */
 
-
-/* screens between 300px - 500px */
-
-@media only screen and (min-width: 300px) and (max-width: 500px) {
-    #main-content {
-        height: 45vh;
-        width: 90vw;
-        position: relative;
-        top: 2rem;
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+    #header, #computer-choice-display, #user-choice-display {
+        font-size: 1.75rem;
     }
-
-    #computer-image-container img {
-        width: 5rem;
-        height: auto;
-    }
-
-    #header {
-        font-size: 1.5rem;
-    }
-
-    #computer-choice-display,
-    #user-choice-display {
-        font-size: 1.5rem;
-    }
-
-    #user-choice,
-    #throw,
-    #reset {
-        margin: .5rem;
-
+    #user-choice, #throw, #reset {
         font-size: 1rem;
     }
-
-}
-
-/* screens between 501px - 700px */
-
-
-@media only screen and (min-width: 501px) and (max-width: 700px) {
     #main-content {
+        height: 80vw;
         width: 80vw;
-        height: 50vh;
-
-        
-        
     }
-
-    #computer-image-container img {
-        width: 6rem;
-        height: auto;
-    }
-
-    
-
-    #header {
-        font-size: 1.75rem;
-    }
-
-    #computer-choice-display,
-    #user-choice-display {
-        font-size: 1.75rem;
-    }
-
-    #user-choice,
-    #throw,
-    #reset {
-        margin: .5rem;
-
-        font-size: 1.25rem;
-    }
-
 }
 
-/* screens between 701px - 900px */
-
-
-@media only screen and (min-width: 701px) and (max-width: 900px) {
-    
-    
+@media only screen and (min-width: 601px) and (max-width: 1100px) {
+    #header, #computer-choice-display, #user-choice-display {
+        font-size: 3rem;
+    }
+    #user-choice, #throw, #reset {
+        font-size: 2rem;
+    }
     #main-content {
-       
-        width: 90vw;
-        height: 85vh;
-        
+        height: 70vw;
+        width: 70vw;
     }
-
-    #computer-image-container img {
-        width: 7rem;
-        height: auto;
-    }
-
-    
-
-    #header {
-        font-size: 2rem;
-    }
-
-    #computer-choice-display,
-    #user-choice-display {
-        font-size: 2rem;
-    }
-
-    #user-choice,
-    #throw,
-    #reset {
-        margin: .5rem;
-
-        font-size: 1.5rem;
-    }
-
 }
 
 
