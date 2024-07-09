@@ -10,57 +10,59 @@ body {
     color: #000;
   }
 
-  #index-main-content {
+  #intro-content {
     display: flex;
     flex-direction: column;
     justify-items: center;
-    
     height: 100%;
+   
 
   }
 
-  #index-header {
+  #intro-header {
     display: flex;
     justify-content: center;
     align-items: center;
-
     width: 100%;
     height: 20%;
     
+ 
   }
 
-  #index-header h1{
+  #intro-header h1 {
    font-size: 3rem;
    font-weight: 600;
    font-family: "Love Ya Like a Sister";
-  }
 
-  #index-image-container {
+}
+
+  #intro-image-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    
     width: 100%;
     height: 70%;
     overflow: hidden;
+    
   }
 
-  #index-image-container img {
+  #intro-image-container img {
     width: auto;
     height: 90%;
+        
   }
 
-  #index-button-container {
+  #intro-button-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 20%;
-    
+        
   }
 
-  #index-button-container button {
+  #intro-button-container button {
     font-family: "Love Ya Like a Sister";
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 500;
     border-radius: 5px;
   }
@@ -224,7 +226,7 @@ button {
         height: 80vw;
         width: 80vw;
     }
-    #index-header h1{
+    #intro-header h1{
         font-size: 1.75rem;
         font-weight: 600;
         font-family: "Love Ya Like a Sister";
