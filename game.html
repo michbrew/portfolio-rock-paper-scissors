@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link href="resources/css/game.css" rel="stylesheet" type="text/css">
+    <link href="resources/css/reset.css" rel="stylesheet" type="text/css">
+    
+    <link rel="icon" type="image/x-icon" href="/resources/images/hand-scissors-regular.svg">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
+     <script type="module" src="/resources/scripts/index.js"></script>
+</head>
+
+<body>
+    <div id="game-content">
+
+        <h1 id="game-header">Play</h1>
+
+        <div id="players-section">
+        
+            <div id="user-section">
+
+                <div id="user-display">
+                    <h2>?</h2>
+                </div>
+        
+                <div id="user-controls">
+        
+                    <select id="user-dropdown" name="user-dropdown">
+
+                        <option value ="---">--Select--</option>
+                        <option value="rock" class="options">Rock</option>
+                        <option value="scissors" class="options">Scissors</option>
+                        <option value="paper" class="options">Paper</option>
+
+                </select>
+                
+                <button id="throw" hidden>Throw</button>
+                <button id="reset" hidden>Play Again</button>
+            </div>
+            </div>
+     
+            <div id="computer-section">
+     
+                <div id="computer-display">
+                    <h2>?</h2>
+                </div>
+
+                <div id="computer-image-container">
+                    <img src="/resources/images/happy-computer.png">
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
