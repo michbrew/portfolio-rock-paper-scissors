@@ -1,0 +1,214 @@
+html {
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #4697C3;
+}
+
+
+button,
+select {
+    color: #000;
+}
+
+
+#game-content {
+    position: relative;
+    top: 2rem;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 80vh;
+    margin: 0 auto;
+    border: 3px solid black;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 5px;
+    background-color: #FCFFF7;
+    
+
+
+}
+
+
+
+#game-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    width: 100%;
+    height: 25%;
+    
+    font-size: 3rem;
+    font-family: "Love Ya Like a Sister";
+    font-weight: 900;
+    
+    line-height: 1.5;
+    word-spacing: 2;
+    
+    
+   
+
+}
+
+
+
+#players-section {
+    display: flex;
+    align-items: center;
+    
+    
+    height: 75%;
+    width: 100%;
+
+
+}
+
+#user-section {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-right: 3px solid black;
+
+    width: 50%;
+    height: 100%;
+
+
+
+}
+
+#user-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 40%;
+    font-size: 3.5rem;
+    font-weight: 900;
+    font-family: "Love Ya Like a Sister";
+
+
+}
+
+#user-dropdown,
+#throw,
+#reset {
+    margin: 1.5rem;
+    font-family: "Love Ya Like a Sister";
+    font-size: 2rem;
+}
+
+
+
+
+#user-controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 60%;
+
+}
+
+
+#computer-section {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    width: 50%;
+    height: 100%;
+}
+
+#computer-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 40%;
+    width: 100%;
+    font-family: "Love Ya Like a Sister";
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+#computer-image-container {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+
+
+
+}
+
+button {
+    border-radius: 5px;
+}
+
+#computer-image-container img {
+
+    height: 85%;
+    width: auto;
+
+
+
+}
+
+
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+
+    #game-header,
+    #computer-display,
+    #user-display {
+        font-size: 1.75rem;
+    }
+
+    #user-dropdown,
+    #throw,
+    #reset {
+        font-size: 1rem;
+    }
+
+    #game-content {
+        height: 80vw;
+        width: 80vw;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 601px) and (max-width: 1100px) {
+
+    #game-header,
+    #computer-display,
+    #user-display {
+        font-size: 3rem;
+    }
+
+    #user-dropdown,
+    #throw,
+    #reset {
+        font-size: 2rem;
+
+    }
+
+    #game-content {
+        height: 70vw;
+        width: 70vw;
+    }
+}
+    
